@@ -1,0 +1,22 @@
+{
+  "name": "prova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LookedPath/EsameIngSoft2.git"
+  },
+  "author": "Simone de Blasiis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LookedPath/EsameIngSoft2/issues"
+  },
+  "homepage": "https://github.com/LookedPath/EsameIngSoft2#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
