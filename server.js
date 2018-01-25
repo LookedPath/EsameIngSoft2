@@ -18,7 +18,7 @@ var app = express();
     app.use(router);
 var port = 8085;
     if(process.env.NODE_ENV !== 'test') {
-        port = 8080;
+        port = process.env.PORT;
     }
 
     var server = app.listen(port, 'localhost',  function () {
