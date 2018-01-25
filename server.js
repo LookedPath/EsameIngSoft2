@@ -18,8 +18,8 @@ var app = express();
     app.use(router);
 var port = process.env.PORT;
 
-    var server = app.listen(port, 'localhost',  function () {
+    var server = app.listen(port,  function () {
         if(process.env.NODE_ENV !== 'test') {
-            console.log("Service attivo sulla porta 8080 e ascolta solo per localhost");
+            console.log("Service attivo sulla porta " + port +" e ascolta solo per localhost");
         }
     });
